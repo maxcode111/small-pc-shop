@@ -1,0 +1,53 @@
+.btn_baner {
+  cursor: pointer;
+  margin-top: 40px;
+  width: 1544px;
+  height: 120px;
+  background-color: #3d5dc8;
+  border: none;
+  color: white;
+  margin-left: 190px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.brend_h2 {
+  margin-top: 52px;
+  border-bottom: solid 0.5px #2b7bc6;
+  margin-left: 190px;
+  width: 344px;
+  height: 36px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.gridBlock {
+  display: grid;
+  grid-template-columns: repeat(6, 239.5px);
+  column-gap: 21px;
+  row-gap: 45px;
+  grid-auto-rows: 100px;
+  margin-left: 190px;
+  align-items: start;
+
+}
+.dIVbrend {
+  margin-top: 30px;
+  width: 240px;
+  height: 132px;
+}
+.imgBrend {
+  width: 240px;
+  height: 132px;
+}
+
+.BorderBrends{
+  margin-bottom: 80px;
+}

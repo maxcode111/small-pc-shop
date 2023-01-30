@@ -1,0 +1,110 @@
+.footer{
+    height: 420px;
+    /* background-color: rgb(207, 130, 130); */
+    display: flex;
+    background-color: white;
+}
+.catalogUl{
+    list-style: none;
+    padding-top: 36px;
+    margin-left: 150px;
+}
+.catalogUl a{
+    text-decoration: none;
+    color: #2B7BC6;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 40px;
+}
+/* .catalogUl li{
+    padding-bottom: 10px;
+} */
+.mmm{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #99A3A9;
+    margin-left: 190px;
+}
+.payUl{
+    list-style: none;
+    padding-top: 36px;
+    margin-left: 153px;
+}
+.payUl a{
+    text-decoration: none;
+    color: #2B7BC6;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 40px;
+}
+.nnumber{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 40px;
+color: #000000;
+padding-top: 30px;
+}
+.callDiv button{
+    width: 178px;
+    height: 36px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.15em;
+color: #1061AB;
+border: 1px solid #1061AB;
+border-radius: 4px;
+cursor: pointer;
+}
+.callDiv{
+    margin-left: 286px;
+}
+.dateUl{
+list-style: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 30px;
+color: #000000;
+margin-left: -40px;
+}
+.iconLow{
+    display: flex;
+    gap : 29px;
+    padding-top: 45px;
+}
+.adresUl{
+    list-style: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 170px;
+    padding-top: 45px;
+}
+.yandexButton{
+    width: 160px;
+    height: 118px;
+    border: none;
+    background: url('./img/yandex.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 210px;
+    cursor: pointer;
+    margin-top: 80px;
+}

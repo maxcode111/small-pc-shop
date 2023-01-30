@@ -1,0 +1,47 @@
+.seoBlock {
+  display: flex;
+  margin-left: 190px;
+  height: 550px;
+  margin-bottom: 100px;
+}
+
+.imgSeo {
+  width: 700px;
+  height: 471px;
+  position: relative;
+  z-index: 1;
+}
+
+.seo_h2 {
+  position: relative;
+  width: 484px;
+  height: 36px;
+  left: 180px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.seo_p {
+  position: relative;
+  left: 435px;
+  padding-top: 20px;
+  height: 452px;
+  color: white;
+  font-family: Montserrat;
+  width: 600px;
+  size: 20px;
+  line-height: 35px;
+}
+
+.seo_pp {
+  position: relative;
+  right: 250px;
+  width: 1093px;
+  height: 452px;
+  background-color: #8461ec;
+  margin-top: 40px;
+}

@@ -1,0 +1,27 @@
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik+Spray+Paint&display=swap');
+/*  */
+html {
+  user-select: none;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  display: block;
+}
+
+/* img {
+  position: relative;
+  border-radius: 10px;
+    z-index: 1;
+} */
+
+.www {
+  width: 103px;
+}
+body {
+  width: 1920px;
+  background-color: #f3f9ff;
+}

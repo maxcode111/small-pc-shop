@@ -1,0 +1,155 @@
+.colwrapp{
+    width: 1540px;
+    height: 578px;
+    /* background-color: rgb(238, 211, 211); */
+    margin: 0 auto;
+}
+.plitkol{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    border-bottom: 1px solid #1061AB;;
+    width: 310px;
+}
+.lappic{
+    width: 760px;
+    height: 500px;
+}
+.lapname{
+    position: relative;
+    top: -100px;
+    width: 165px;
+    height: 58px;
+    background-color: rgba(113, 93, 237, 0.8);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: none;
+    cursor: pointer;
+}
+.lapdesc{
+    position: relative;
+    top : -95px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    left: 21px;
+    }
+.colflex{
+    display: flex;
+}
+.keydiv{
+    margin-left: 18px;
+}
+.keypic{
+    width: 500px;
+    height: 240px;
+
+}
+.keyname{
+    width: 158px;
+    height: 48px;
+    background-color: rgba(113, 93, 237, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: relative;
+    top : -100px;
+    border: none;
+    cursor: pointer;
+}
+.keydesc{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    left: 21px;
+    position: relative;
+    top : -95px;
+}
+.rightflex{
+    display: flex;
+}
+.rightflexdown{
+    display: flex;
+    position: relative;
+    top : -56px
+}
+.mousepic{
+    width: 240px;
+    height: 240px;
+
+}
+.mousediv{
+    margin-left: 22px;
+}
+.mousename{
+    width: 115px;
+    height: 48px;
+    background-color: rgba(113, 93, 237, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: relative;
+    top : -100px;
+    border: none;
+    cursor: pointer;
+}
+.mousenamee{
+    width: 140px;
+    height: 48px;
+    background-color: rgba(113, 93, 237, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: relative;
+    top : -100px;
+    border: none;
+    cursor: pointer;
+}
+.mousedesc{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    left: 21px;
+    position: relative;
+    top : -95px;
+}

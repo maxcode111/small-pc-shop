@@ -1,0 +1,56 @@
+.simple_rating {
+  position: relative;
+  font-size: 40px;
+  display: inline-block;
+  margin-left: 28px;
+}
+
+.simple_rating::before {
+  content: "★★★★★";
+  display: block;
+}
+
+.simple_rating_items {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: hidden;
+}
+
+.simple_rating_item {
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+}
+
+.simple_rating_label {
+  color: white;
+  flex: 0 0 20%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.simple_rating_label::before {
+  content: "★";
+  display: block;
+  transition: color 0.3s ease 0s;
+}
+
+.simple_rating_item:checked,
+.simple_rating_item:checked ~ .simple_rating_label {
+  color: orangered;
+}
+
+.simple_rating_label:hover,
+.simple_rating_label:hover ~ .simple_rating_label,
+.simple_rating_label:checked ~ .simple_rating_label:hover {
+  color: yellow;
+}

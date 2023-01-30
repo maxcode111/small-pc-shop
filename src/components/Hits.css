@@ -1,0 +1,179 @@
+/*  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik+Spray+Paint&display=swap");
+/*  */
+/* Tags.jsx */
+
+.tagblok {
+  margin-left: 190px;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+}
+.tag {
+  cursor: pointer;
+  margin-top: 15px;
+  font-family: "Montserrat";
+  padding: 6px 16px 6px 16px;
+  font-weight: 500;
+  font-size: 14px;
+  transition: 0.8s;
+  border: none;
+  color: #2b7bc6;
+  border-radius: 5px;
+  background-color: white;
+}
+.tag:hover,
+.tag.active {
+  background-color: #3bb9b8;
+  color: white;
+}
+
+.tag:focus {
+  vertical-align: middle;
+  background-color: #3bb9b8;
+  color: white;
+}
+
+/* Tags.jsx */
+
+/* Propselement.jsx */
+
+.praduct {
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 288px;
+  height: 288px;
+}
+
+.star {
+  cursor: pointer;
+  width: 128px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.praductBord {
+  gap: 2px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.PriceAndButton {
+  display: flex;
+}
+
+.PriceButton {
+  cursor: pointer;
+  font-family: "Montserrat";
+  position: absolute;
+  width: 116px;
+  height: 37px;
+  margin-left: 140px;
+  padding: 6px 12px 6px 12px;
+  margin-top: 20px;
+  color: #2b7bc6;
+  border: solid 1px #2b7bc6;
+  background-color: white;
+  border-radius: 3px;
+}
+/* .PriceButton :hover, .PriceButton :active{
+  background-color: #2b7bc6;
+  color: rgb(255, 255, 255);
+} */
+
+.infoforhits {
+  margin-left: 30px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.priseAcsia {
+  position: relative;
+  top: -100px;
+  left: 15px;
+  color: #ea1649;
+  text-decoration: line-through red;
+}
+
+.vertical {
+  font-family: "Montserrat";
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  width: 306.9px;
+  height: 540px;
+  margin-bottom: 40px;
+}
+
+/*  */
+
+.xit {
+  border-radius: 5px 0 5px 0;
+  font-family: "Montserrat";
+  text-align: center;
+  position: absolute;
+  left: 20px;
+  top: -5px;
+  z-index: 1;
+  background-color: #ffd600;
+  color: black;
+}
+
+.acsia {
+  border-radius: 0 5px 0 5px;
+  font-family: "Montserrat";
+  text-align: center;
+  position: absolute;
+  left: 49px;
+  top: -5px;
+  z-index: 1;
+  background-color: #ea1649;
+  color: white;
+}
+
+/*  */
+
+/* Propselement.jsx */
+
+/*  */
+
+.акция {
+  margin-top: 52px;
+  background: #eaf4ff;
+}
+
+/*  */
+
+/*  */
+.produktbordrevers {
+  margin-left: 190px;
+}
+.produktbordreverss {
+  margin-left: 190px;
+}
+/*  */
+.bestsellers {
+  margin-left: 190px;
+  font-family: "Montserrat";
+  text-align: center;
+  width: 225px;
+  height: 36px;
+  border-bottom: solid 0.5px #2b7bc6;
+}
+.bestsellerss {
+  padding-top: 52px;
+  margin-left: 190px;
+  font-family: "Montserrat";
+  text-align: center;
+  width: 110px;
+  height: 36px;
+  border-bottom: solid 0.5px #2b7bc6;
+}

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.cyanBack{
+    width: 100%;
+    height: 370px;
+    background-color: #E1EEFB;
+    /* background: url('./img/logo.png'); */
+}
+.logoPic{
+    height: 44px;
+    /* margin-left: 190px; */
+}
+.headerWrapper{
+    /* background-color: rgb(197, 245, 202); */
+    width: 1540px;
+    margin: -345px auto;
+    /* height: 600px; */
+}
+.fuller{
+    height: 680px;
+    /* background-color: rgb(39, 181, 51); */
+    margin-bottom: 100px;
+}
+.frameDiv{
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.navBar{
+    display: flex;
+    height: 80px;
+    /* background-color: rgb(80, 36, 36); */
+}
+.city{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2B7BC6;
+    margin-left: 8px;
+    border-bottom: 1px dashed #2B7BC6;
+}
+
+.number{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 1px;
+color: #000000;
+height: 20px;
+margin-left: 120px;
+}
+.doneDiv{
+    margin-top: 14px;
+    margin-left: 12px;
+}
+.order{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2B7BC6;
+    margin-left: 13px;
+    border-bottom: 1px dashed #2B7BC6;
+}
+.navUl{
+    list-style: none;
+    display: flex;
+    margin-left: 69px;
+    gap : 20px;
+}
+.navUl a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #2B7BC6;
+}
+.underNav{
+display: flex;
+background-color: white;
+margin-bottom: 14px;
+}
+.catalog{
+    width: 330px;
+    height: 60px;
+    border: none;
+    background-color: #8461ec;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.15em;
+    color: #FBFAF9;
+    cursor: pointer;
+}
+.burger{
+    margin-right: 21px;
+}
+.actions{
+    width: 150px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.15em;
+    color: #FBFAF9;
+    background-color: #3b0898;
+    border: none;
+    cursor: pointer;
+}
+.brands{
+    width: 170px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.15em;
+    color: #FBFAF9;
+    background-color: #3d5dc8;
+    border: none;
+    cursor: pointer;
+}
+.finder{
+    width: 650px;
+    border: none;
+    padding-left: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #536067;
+    background-image: url('./img/findericon.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 625px;
+}
+.heart, .person, .shop{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.heart, .person{
+    margin-right: 20px;
+}
+.person{margin-left: 20px;}
+/* .blueBlock{
+    width: 1040px;
+    height: 380px;
+    background-color: #004C93;
+    background-image: url('./img/setup.jpg');
+    background-size: cover;
+} */
+.skyBlock{
+width: 500px;
+height: 190px;
+background-color: #8461ec;
+margin-top: -24px;
+}
+.cyanBlock{
+    width: 500px;
+    height: 190px;
+    background-color: #3d5dc8;
+    margin-top: -24px;
+}
+.skyMain{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-left: 260px;
+    padding-top: 50px;
+    letter-spacing: 0.15em;
+}
+.skyLow{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-left: 260px;
+    margin-top: -25px;
+}
+.skyDesc{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    margin-left: 260px;
+    margin-top: -10px;
+}
+.skyDesc a{
+    color: white;
+    text-decoration: none;
+}
